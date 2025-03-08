@@ -27,6 +27,7 @@
 # for example an invitation card that is designed at first, this is the blueprint, then the copies a made which in this casse a objects but remember these copies have different names which a features in this casse.
 # "is a" is a phrase we use to identify a class of a particular object.
 # An object should fulfill all the properties of a class.
+# A method is a function under a class, used to define behaviours of instances created from that class.
 
 students = ["Aita", "Chiru", "Edna", "Allan"]
 student1 = {"Name" : "Aita", "Gender" : "Female", "School" : "Refactory Academy"}
@@ -60,4 +61,4 @@ rice.calories = "3"
 rice.price = "4000"
 rice.value = "1kg"
 
-print(rice.name)
+print(rice)
